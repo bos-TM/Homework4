@@ -1,4 +1,4 @@
-package Task1;
+package Task2;
 
 public abstract class AbstractHandler {
     abstract void open(String file);

@@ -1,6 +1,6 @@
-package Task1;
+package Task2;
 
-public class TXTHandler extends AbstractHandler{
+public class TXTHandler extends AbstractHandler {
     @Override
     void open(String file) {
         System.out.println("Opened TXT-file: " + file);

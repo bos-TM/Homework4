@@ -1,4 +1,4 @@
-package Task1;
+package Task2;
 
 public class XMLHandler extends AbstractHandler {
     @Override

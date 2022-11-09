@@ -1,4 +1,4 @@
-package Task1;
+package Task2;
 
 import java.util.Scanner;
 
@@ -13,6 +13,7 @@ public class Main {
                 TXTHandler fileHandler = new TXTHandler();
                 fileHandler.open(inputFile);
                 fileHandler.change(inputFile);
+                fileHandler.save(inputFile);
                 fileHandler.create();
                 return;
             }
@@ -21,6 +22,7 @@ public class Main {
                 DOCHandler fileHandler = new DOCHandler();
                 fileHandler.open(inputFile);
                 fileHandler.change(inputFile);
+                fileHandler.save(inputFile);
                 fileHandler.create();
                 return;
             }
@@ -29,6 +31,7 @@ public class Main {
                 XMLHandler fileHandler = new XMLHandler();
                 fileHandler.open(inputFile);
                 fileHandler.change(inputFile);
+                fileHandler.save(inputFile);
                 fileHandler.create();
                 return;
             }

@@ -1,7 +1,7 @@
-package Task1;
+package Task2;
 
-public class DOCHandler extends AbstractHandler{
-    String textDOC;
+public class DOCHandler extends AbstractHandler {
+
     @Override
     void open(String file) {
         System.out.println("Opened DOC-file: " + file);
